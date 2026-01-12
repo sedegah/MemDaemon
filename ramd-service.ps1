@@ -24,7 +24,7 @@ while ($true) {
         } |
         ForEach-Object { Trim-ProcessMemory $_ }
 
-        Start-Sleep 2  # allow memory to settle
+        Start-Sleep 2  
 
         $after = Get-SystemMemoryStats
         $freed = [math]::Round($after.FreeRAM_MB - $before.FreeRAM_MB, 2)
@@ -40,7 +40,6 @@ Commit    : $($after.Commit_MB) / $($after.CommitLimit_MB) MB
 --------------------------------------
 "@
 
-        # Write to log file in the correct relative path
         Add-Content "$ScriptDir\$($Config.LogFile)" $log
     }
 
