@@ -1,0 +1,23 @@
+Add-Type @"
+using System;
+using System.Runtime.InteropServices;
+
+public class RamTools {
+    [DllImport("psapi.dll")]
+    public static extern bool EmptyWorkingSet(IntPtr hProcess);
+
+    [DllImport("kernel32.dll")]
+    public static extern bool SetProcessWorkingSetSize(
+        IntPtr hProcess, int min, int max
+    );
+}
+"@
+
+function Clear-ProcessMemory {
+    param ($Process)
+
+    try {
+        [RamTools]::EmptyWorkingSet($Process.Handle) | Out-Null
+        [RamTools]::SetProcessWorkingSetSize($Process.Handle, -1, -1) | Out-Null
+    } catch {}
+}
