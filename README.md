@@ -90,15 +90,20 @@ powershell -ExecutionPolicy Bypass -File "C:\Users\Kimat\Desktop\MemDaemon\ramd.
 Sample output after cleanup:
 
 ```
-RAM cleanup performed. Freed 200 MB
+RAM Cleanup Complete
+------------------------------------
 Before Cleanup:
-  Used RAM   : 9533.58 MB
-  Free RAM   : 14790.38 MB
-  Standby    : 14317.86 MB
+  Total RAM  : 24323.96 MB
+  Used RAM   : 7979.57 MB
+  Free RAM   : 16344.39 MB
+  Standby    : 14610.7 MB
+  Commit     : 14396.3 / 26780.34 MB
+
 After Cleanup:
-  Used RAM   : 9333.58 MB
-  Free RAM   : 14990.38 MB
-  Standby    : 14017.86 MB
+  Used RAM   : 7997.32 MB
+  Free RAM   : 16326.64 MB
+  Standby    : 14600.55 MB
+  Commit     : 14518.81 / 26780.34 MB
 Trimmed Processes:
   chrome → 50 MB
   code   → 30 MB
