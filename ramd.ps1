@@ -17,7 +17,7 @@ switch ($Command) {
         Write-Host "Standby   : $($s.StandbyMB) MB"
         Write-Host "Commit    : $($s.Commit_MB) / $($s.CommitLimit_MB) MB"
     }
-
+ 
     "clean" {
         $result = Optimize-ProcessMemoryStats -ClearStandbyMemory
 
