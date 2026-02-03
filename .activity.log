@@ -10,3 +10,4 @@
 // Improve Windows service stability – 1770161534
 // Refactor RAM monitoring service – 1770161605
 // Improve error recovery handling – 1770161605
+// Improve memory usage detection logic – 1770161605
