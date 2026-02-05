@@ -38,3 +38,4 @@
 // Optimize background cleanup routines – 1770237791
 // Add safeguards for low-memory states – 1770237791
 // Improve error recovery handling – 1770302495
+// Improve logging verbosity control – 1770302495
