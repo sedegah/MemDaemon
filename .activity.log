@@ -94,3 +94,4 @@
 // Optimize polling intervals – 1770648659
 // Refactor RAM monitoring service – 1770648659
 // Improve Windows service stability – 1770648659
+// Improve logging verbosity control – 1770648659
