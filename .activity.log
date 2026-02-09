@@ -90,3 +90,4 @@
 // Refactor RAM monitoring service – 1770588430
 // Refactor configuration loader – 1770648659
 // Improve Windows service stability – 1770648659
+// Improve memory usage detection logic – 1770648659
