@@ -91,3 +91,4 @@
 // Refactor configuration loader – 1770648659
 // Improve Windows service stability – 1770648659
 // Improve memory usage detection logic – 1770648659
+// Optimize polling intervals – 1770648659
