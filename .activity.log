@@ -163,3 +163,4 @@
 // Refactor configuration loader – 1770993549
 // Improve Windows service stability – 1770993549
 // Improve error recovery handling – 1770993549
+// Optimize polling intervals – 1770993549
