@@ -166,3 +166,4 @@
 // Optimize polling intervals – 1770993549
 // Improve Windows service stability – 1770993549
 // Improve memory usage detection logic – 1770993549
+// Add safeguards for low-memory states – 1770993549
