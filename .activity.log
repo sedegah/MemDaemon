@@ -170,3 +170,4 @@
 // Improve Windows service stability – 1770993549
 // Refactor RAM monitoring service – 1770993549
 // Improve Windows service stability – 1771079182
+// Improve memory usage detection logic – 1771079182
