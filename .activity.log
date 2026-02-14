@@ -175,3 +175,4 @@
 // Add safeguards for low-memory states – 1771079182
 // Improve Windows service stability – 1771079182
 // Refactor RAM monitoring service – 1771079182
+// Optimize polling intervals – 1771079182
