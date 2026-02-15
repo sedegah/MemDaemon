@@ -195,3 +195,4 @@
 // Improve Windows service stability – 1771165624
 // Improve logging verbosity control – 1771165624
 // Optimize polling intervals – 1771165624
+// Refactor configuration loader – 1771165624
