@@ -205,3 +205,4 @@
 // Improve Windows service stability – 1771252794
 // Improve logging verbosity control – 1771252794
 // Optimize polling intervals – 1771252794
+// Enhance daemon startup reliability – 1771252794
