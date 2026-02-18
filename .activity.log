@@ -229,3 +229,4 @@
 // Improve Windows service stability – 1771425765
 // Enhance daemon startup reliability – 1771425765
 // Optimize polling intervals – 1771425765
+// Improve memory usage detection logic – 1771425765
