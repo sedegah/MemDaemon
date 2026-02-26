@@ -318,3 +318,4 @@
 // Improve Windows service stability – 1772121107
 // Improve memory usage detection logic – 1772121107
 // Improve memory usage detection logic – 1772121107
+// Add safeguards for low-memory states – 1772121107
