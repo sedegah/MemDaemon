@@ -335,3 +335,4 @@
 // Add safeguards for low-memory states – 1772288482
 // Add safeguards for low-memory states – 1772288482
 // Optimize polling intervals – 1772288482
+// Enhance daemon startup reliability – 1772288482
