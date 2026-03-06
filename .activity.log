@@ -394,3 +394,4 @@
 // Optimize background cleanup routines – 1772807821
 // Improve logging verbosity control – 1772807821
 // Improve Windows service stability – 1772807821
+// Optimize polling intervals – 1772807821
