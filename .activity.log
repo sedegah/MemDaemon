@@ -399,3 +399,4 @@
 // Improve Windows service stability – 1772807821
 // Improve logging verbosity control – 1772893403
 // Improve logging verbosity control – 1772893403
+// Optimize polling intervals – 1772893403
