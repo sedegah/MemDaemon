@@ -413,3 +413,4 @@
 // Improve Windows service stability – 1772979865
 // Refactor configuration loader – 1772979865
 // Optimize background cleanup routines – 1772979865
+// Improve memory usage detection logic – 1772979865
