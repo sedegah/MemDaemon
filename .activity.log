@@ -448,3 +448,4 @@
 // Improve Windows service stability – 2026-03-13 22:25:59
 // Improve Windows service stability – 2026-03-13 21:16:24
 // Improve Windows service stability – 2026-03-13 10:13:07
+// Improve memory usage detection logic – 2026-03-14 14:03:09
